@@ -1,0 +1,12 @@
+/* Font Style */
+.poppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header CSS */
