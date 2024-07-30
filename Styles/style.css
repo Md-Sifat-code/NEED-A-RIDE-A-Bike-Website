@@ -1,74 +1,162 @@
 /* Font Style */
-.poppins{
+.poppins {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 /* Universal Styles */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Header CSS */
-.heading{
+.heading {
     width: 100%;
-    height: auto;
+    height: 698px;
     background: rgb(38, 70, 83);
     display: grid;
     grid-template-columns: 1fr;
 }
-.navigation{
+
+.navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.logo>img{
+
+.logo>img {
     width: 100px;
     height: 100px;
     margin-left: 156px;
     margin-top: 42px;
 }
-.nav-bar{
+
+.nav-bar {
     width: 499px;
     /* border: 2px solid red; */
     margin-right: 156px;
 
 }
-.nav-bar>nav{
+
+.nav-bar>nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
-.nav-bar>nav>p{
-    color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-}
-.nav-bar>nav>button{
-    width: 91px;
-height: 44px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 10px 24px 10px 24px;
-border-radius: 5px;
 
-background: rgb(231, 111, 81);
-border: none;
-margin-left: 64px;
-}
-.nav-bar>nav>button>a{
+.nav-bar>nav>p {
     color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-bar>nav>button {
+    width: 91px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 24px 10px 24px;
+    border-radius: 5px;
+
+    background: rgb(231, 111, 81);
+    border: none;
+    margin-left: 64px;
+}
+
+.nav-bar>nav>button>a {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+}
+
+/* Hero Part CSS */
+.Hero {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+
+.hero-disc {
+    margin-left: 156px;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    width: 456px;
+    height: auto;
+    margin-top: 60px;
+}
+
+.hero-disc>p {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 18px;
+}
+
+#ex {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-disc>h2 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-disc>button {
+    width: 168px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+
+    background: rgb(231, 111, 81);
+    border: none;
+    margin-top: 21px;
+}
+.hero-disc>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
-text-decoration: none;
+}
+.hero-pic{
+    margin-left: 98px;
+}
+.hero-pic>img{
+    width: 552px;
+height: 447px;
+
 }
